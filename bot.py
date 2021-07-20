@@ -3,7 +3,7 @@ import logging
 import logging.config
 
 # Get logging configurations
-logging.getLogger().setLevel(logging.ERROr)
+logging.getLogger().setLevel(logging.ERROR)
 logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 from pyromod import listen
